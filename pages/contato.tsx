@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import { useState } from 'react';
-import nodemailer from 'nodemailer';
 
 export default function Contato() {
   const [formData, setFormData] = useState({
