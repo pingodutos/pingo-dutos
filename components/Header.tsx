@@ -63,7 +63,7 @@ const Header = () => {
             {/* Botões CTA */}
             <div className="flex items-center space-x-4">
               <a
-                href="https://wa.me/5561999999999"
+                href="https://wa.me/5569992561830"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow-md transition-colors flex items-center"
@@ -122,7 +122,7 @@ const Header = () => {
               </Link>
               <div className="flex flex-col space-y-4 pt-4">
                 <a
-                  href="https://wa.me/5561999999999"
+                  href="https://wa.me/5569992561830"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow-md transition-colors flex items-center justify-center"
