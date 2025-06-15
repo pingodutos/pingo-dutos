@@ -9,11 +9,33 @@ export default function Contato() {
     telefone: '',
     mensagem: '',
   });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>("idle");
+  const [message, setMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
+    console.log("Formulário enviado!");
     e.preventDefault();
-    // Aqui você pode adicionar a lógica para enviar o formulário
-    console.log('Formulário enviado:', formData);
+    setStatus("loading");
+    setMessage("");
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setStatus("success");
+        setMessage("Mensagem enviada com sucesso! Em breve entraremos em contato.");
+        setFormData({ nome: '', email: '', telefone: '', mensagem: '' });
+      } else {
+        setStatus("error");
+        setMessage(data.message || "Erro ao enviar mensagem. Tente novamente mais tarde.");
+      }
+    } catch (err) {
+      setStatus("error");
+      setMessage("Erro ao enviar mensagem. Tente novamente mais tarde.");
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -109,6 +131,16 @@ export default function Contato() {
               Enviar Mensagem
             </motion.button>
           </form>
+
+          {status === "loading" && (
+            <p className="text-blue-400 mt-4">Enviando mensagem...</p>
+          )}
+          {status === "success" && (
+            <p className="text-green-400 mt-4">{message}</p>
+          )}
+          {status === "error" && (
+            <p className="text-red-400 mt-4">{message}</p>
+          )}
 
           <div className="mt-12 text-center">
             <h2 className="text-2xl font-bold mb-4">Informações de Contato</h2>
