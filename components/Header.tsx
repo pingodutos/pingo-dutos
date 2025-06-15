@@ -55,6 +55,9 @@ const Header = () => {
               <Link href="/projetos" className="text-gray-800 hover:text-blue-600 font-medium transition-colors">
                 Projetos
               </Link>
+              <Link href="/produtos" className="text-gray-800 hover:text-blue-600 font-medium transition-colors">
+                Produtos
+              </Link>
               <Link href="/contato" className="text-gray-800 hover:text-blue-600 font-medium transition-colors">
                 Contato
               </Link>
@@ -78,12 +81,6 @@ const Header = () => {
                 </svg>
                 WhatsApp
               </a>
-              <Link
-                href="/contato"
-                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition-colors"
-              >
-                Orçamento
-              </Link>
             </div>
           </div>
         </div>
@@ -114,6 +111,13 @@ const Header = () => {
                 Projetos
               </Link>
               <Link
+                href="/produtos"
+                className="text-gray-800 hover:text-blue-600 font-medium transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Produtos
+              </Link>
+              <Link
                 href="/contato"
                 className="text-gray-800 hover:text-blue-600 font-medium transition-colors"
                 onClick={() => setIsMenuOpen(false)}
@@ -137,13 +141,6 @@ const Header = () => {
                   </svg>
                   WhatsApp
                 </a>
-                <Link
-                  href="/contato"
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition-colors text-center"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Orçamento
-                </Link>
               </div>
             </nav>
           </div>

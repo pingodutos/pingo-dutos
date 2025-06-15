@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import Header from '../components/Header';
 import '../styles/globals.css';
+import Script from 'next/script';
 
 export default function App({ Component, pageProps, router }: AppProps) {
   return (
@@ -55,6 +56,19 @@ export default function App({ Component, pageProps, router }: AppProps) {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
         >
+          {/* Google Analytics */}
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-D80HCF4QSK"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-D80HCF4QSK');
+            `}
+          </Script>
           <Component {...pageProps} />
         </motion.div>
       </AnimatePresence>
