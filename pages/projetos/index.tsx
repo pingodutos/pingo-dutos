@@ -1,18 +1,28 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
-export default function Projetos() {
+export default function RedirectProjetos() {
+  const router = useRouter();
+  useEffect(() => {
+    router.replace('/portfolio');
+  }, [router]);
+  return null;
+}
+
+export function Projetos() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
       <Head>
-        <title>Projetos | Pingo Dutos</title>
+        <title>Portfólio | Pingo Dutos</title>
         <meta name="description" content="Conheça nossos principais projetos em sistemas de climatização e combate a incêndio." />
       </Head>
 
       <main className="container mx-auto px-4 py-16">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
-          Nossos Projetos
+          Nossos Portfólios
         </h1>
 
         {/* Projeto em Destaque */}
