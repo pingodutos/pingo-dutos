@@ -70,8 +70,8 @@ const ProjetoYasai = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
       <Head>
-        <title>Projeto Yasai - Pingo Dutos</title>
-        <meta name="description" content="Projeto de dutos industriais para o Yasai" />
+        <title>Yasai Bowl - Pingo Dutos</title>
+        <meta name="description" content="Projeto de dutos industriais para o Yasai Bowl" />
       </Head>
 
       <main className="container mx-auto px-4 py-16">
@@ -90,9 +90,9 @@ const ProjetoYasai = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Projeto Yasai</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Yasai Bowl</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Sistema completo de dutos industriais para o Yasai, incluindo ventilação,
+            Sistema completo de dutos industriais para o Yasai Bowl, incluindo ventilação,
             exaustão e climatização.
           </p>
         </motion.div>
@@ -107,7 +107,7 @@ const ProjetoYasai = () => {
           <div className="max-w-3xl mx-auto bg-gray-800 p-8 rounded-lg">
             <h2 className="text-2xl font-bold mb-4">Sobre o Projeto</h2>
             <p className="text-gray-300 mb-4">
-              O projeto Yasai representa um marco importante para a Pingo Dutos, demonstrando nossa expertise
+              O projeto Yasai Bowl representa um marco importante para a Pingo Dutos, demonstrando nossa expertise
               em sistemas de dutos industriais. Desenvolvemos um sistema completo que inclui:
             </p>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
@@ -192,8 +192,8 @@ const ProjetoYasai = () => {
 const projetos = [
   {
     id: 'yasai',
-    titulo: 'Projeto Yasai',
-    descricao: 'Sistema completo de dutos industriais para o Yasai, incluindo ventilação, exaustão e climatização.',
+    titulo: 'Yasai Bowl',
+    descricao: 'Sistema completo de dutos industriais para o Yasai Bowl, incluindo ventilação, exaustão e climatização.',
     imagem: '/images/clientes/yasai.png', // Logo do Yasai
     link: '/projetos/yasai'
   },
