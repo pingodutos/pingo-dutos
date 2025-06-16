@@ -101,8 +101,8 @@ const Diferenciais = () => {
     },
     {
       icon: "🌎",
-      title: "Projetos em todo Brasil",
-      description: "Atendimento em todo território nacional"
+      title: "Referência na Região Norte",
+      description: "Atendimento especializado na região Norte do Brasil"
     },
     {
       icon: "👥",
