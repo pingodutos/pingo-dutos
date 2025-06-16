@@ -7,7 +7,7 @@ export default function AguaGelada() {
     <div className="min-h-screen bg-gradient-to-b from-cyan-900 to-gray-800 text-white">
       <Head>
         <title>Instalações de Água Gelada </title>
-        <meta name="description" content="Especialistas em sistemas de água gelada para climatização central." />
+        <meta name="description" content="Especialistas em sistemas de tubulação deágua gelada para climatização central." />
       </Head>
 
       {/* Hero Section */}

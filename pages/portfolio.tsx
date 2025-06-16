@@ -256,7 +256,7 @@ export default function Projetos() {
               className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <Link href={`/projetos/${projeto.id}`} className="block">
-                <div className="relative h-48">
+                <div className="relative h-48 flex items-center justify-center bg-white">
                   <Image
                     src={projeto.imagem}
                     alt={projeto.titulo}

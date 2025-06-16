@@ -29,21 +29,21 @@ export function Projetos() {
           {/* Projeto Colcci */}
           <div className="bg-gray-800 rounded-lg overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 flex flex-col">
             <Link href="/projetos/colcci" className="flex-1 flex flex-col">
-              <div className="relative h-64">
+              <div className="relative h-48 flex items-center justify-center bg-white">
                 <Image
                   src="/images/clientes/colcci.png"
                   alt="Colcci"
                   fill
-                  className="object-contain bg-white"
+                  className="object-contain"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-                <div className="absolute bottom-0 left-0 p-6">
-                  <h3 className="text-2xl font-bold mb-2">Colcci</h3>
-                  <p className="text-sm mb-4">Sistema completo de ventilação e climatização</p>
-                  <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg">
-                    Ver Projeto
-                  </span>
-                </div>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+              <div className="absolute bottom-0 left-0 p-6">
+                <h3 className="text-2xl font-bold mb-2">Colcci</h3>
+                <p className="text-sm mb-4">Sistema completo de ventilação e climatização</p>
+                <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg">
+                  Ver Projeto
+                </span>
               </div>
             </Link>
             {/* Visualização 3D do Colcci */}
@@ -65,21 +65,21 @@ export function Projetos() {
           {/* Projeto Yasai */}
           <div className="bg-gray-800 rounded-lg overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 flex flex-col">
             <Link href="/projetos/yasai" className="flex-1 flex flex-col">
-              <div className="relative h-64">
+              <div className="relative h-48 flex items-center justify-center bg-white">
                 <Image
                   src="/images/clientes/yasai.png"
                   alt="Yasai Bowl"
                   fill
-                  className="object-contain bg-white"
+                  className="object-contain"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
-                <div className="absolute bottom-0 left-0 p-6">
-                  <h3 className="text-2xl font-bold mb-2">Yasai Bowl</h3>
-                  <p className="text-sm mb-4">Sistema de climatização e combate a incêndio</p>
-                  <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg">
-                    Ver Projeto
-                  </span>
-                </div>
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+              <div className="absolute bottom-0 left-0 p-6">
+                <h3 className="text-2xl font-bold mb-2">Yasai Bowl</h3>
+                <p className="text-sm mb-4">Sistema de climatização e combate a incêndio</p>
+                <span className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg">
+                  Ver Projeto
+                </span>
               </div>
             </Link>
           </div>
