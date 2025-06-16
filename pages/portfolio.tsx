@@ -191,6 +191,13 @@ const ProjetoYasai = () => {
 // Lista de projetos
 const projetos = [
   {
+    id: 'colcci',
+    titulo: 'Colcci',
+    descricao: 'Sistema de ventilação e climatização para a loja Colcci no Porto Velho Shopping.',
+    imagem: '/images/clientes/colcci.png',
+    link: '/projetos/colcci'
+  },
+  {
     id: 'yasai',
     titulo: 'Yasai Bowl',
     descricao: 'Sistema completo de dutos industriais para o Yasai Bowl, incluindo ventilação, exaustão, climatização, sistema de Saponificante para coifa, tratamento de resíduos gordurosos e coifa mult UV.',
