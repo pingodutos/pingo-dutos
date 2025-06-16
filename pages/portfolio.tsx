@@ -56,7 +56,7 @@ const PhotoGallery = ({ images }: { images: string[] }) => {
   );
 };
 
-// Componente do Projeto Yasai
+// Componente do Projeto Yasai Bowl
 const ProjetoYasai = () => {
   const images = [
     '/images/yasai/1.jpg',
@@ -93,7 +93,7 @@ const ProjetoYasai = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Yasai Bowl</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Sistema completo de dutos industriais para o Yasai Bowl, incluindo ventilação,
-            exaustão e climatização.
+            exaustão, climatização, sistema de Saponificante para coifa, tratamento de resíduos gordurosos e coifa mult UV.
           </p>
         </motion.div>
 
@@ -200,7 +200,7 @@ const projetos = [
   {
     id: 'yasai',
     titulo: 'Yasai Bowl',
-    descricao: 'Sistema completo de dutos industriais para o Yasai Bowl, incluindo ventilação, exaustão e climatização.',
+    descricao: 'Sistema completo de dutos industriais para o Yasai Bowl, incluindo ventilação, exaustão, climatização, sistema de Saponificante para coifa, tratamento de resíduos gordurosos e coifa mult UV.',
     imagem: '/images/clientes/yasai.png',
     link: '/projetos/yasai'
   },
@@ -261,7 +261,7 @@ export default function Projetos() {
                     src={projeto.imagem}
                     alt={projeto.titulo}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
                 <div className="p-6">
