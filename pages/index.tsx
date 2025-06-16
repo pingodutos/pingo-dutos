@@ -262,7 +262,7 @@ export default function Home() {
             transition={{ delay: 0.2 }}
             className="text-xl md:text-2xl mb-8 text-white"
           >
-            Transformando ambientes desde 2008
+            Especialistas em Dutos de Ar, Climatização e Combate a Incêndio na Região Norte. Mais de 15 anos de experiência.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: -20 }}
