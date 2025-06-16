@@ -13,7 +13,6 @@ export default function YasaiProject() {
       {/* Hero Section */}
       <section className="relative h-[40vh] md:h-[50vh] flex items-center justify-center bg-gradient-to-br from-blue-900 via-gray-900 to-gray-800 border-b border-blue-900 shadow-lg">
         <div className="w-full text-center px-4 z-10">
-          <span className="inline-block bg-blue-700/80 text-white text-xs md:text-sm font-semibold rounded-full px-4 py-1 mb-4 tracking-widest uppercase shadow-md">Projeto em Destaque</span>
           <h1 className="text-4xl md:text-6xl font-extrabold mb-3 drop-shadow-lg">Yasai Bowl</h1>
           <p className="text-lg md:text-2xl text-blue-100 font-medium max-w-2xl mx-auto drop-shadow-sm">Sistema completo de ventilação e climatização</p>
         </div>
