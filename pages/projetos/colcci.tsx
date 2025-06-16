@@ -67,6 +67,22 @@ export default function ColcciProject() {
               </li>
             </ul>
 
+            {/* Modelo 3D */}
+            <div className="mt-16">
+              <h3 className="text-2xl font-bold mb-6">Visualização 3D do Projeto</h3>
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-2xl">
+                <iframe
+                  src="https://sketchfab.com/3d-models/colcci-62b693abb1c24d2f9a6e1d9efd66813d/embed"
+                  title="Modelo 3D Colcci"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full"
+                ></iframe>
+              </div>
+              <p className="text-sm text-gray-400 mt-2">
+                Visualize o projeto em 3D. Use o mouse para rotacionar, dar zoom e explorar os detalhes.
+              </p>
+            </div>
+
             {/* Galeria do Projeto */}
             <div className="mt-16">
               <h3 className="text-2xl font-bold mb-6">Galeria do Projeto</h3>
