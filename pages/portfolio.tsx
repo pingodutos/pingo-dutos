@@ -10,14 +10,7 @@ const PhotoGallery = ({ images }: { images: string[] }) => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   // Filtra apenas as imagens que existem
-  const existingImages = images.filter(image => {
-    try {
-      require(`../public${image}`);
-      return true;
-    } catch {
-      return false;
-    }
-  });
+  const existingImages = images;
 
   if (existingImages.length === 0) {
     return null;
