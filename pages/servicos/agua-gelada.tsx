@@ -24,10 +24,10 @@ export default function AguaGelada() {
         <div className="absolute inset-0 bg-gradient-to-b from-cyan-900/70 to-gray-800/70"></div>
         <div className="relative z-10 text-center px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">
-            💧 Instalações de Água Gelada
+            💧 Instalação de tubulações de água gelada
           </h1>
           <p className="text-xl md:text-2xl mb-8 animate-fade-in-delay">
-            Soluções em Sistemas de Água Gelada para Climatização Comercial e Industrial
+            Soluções em sistemas de tubulação de água gelada para climatização
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay-2">
             <Link 
@@ -54,7 +54,7 @@ export default function AguaGelada() {
         {/* Introduction */}
         <div className="max-w-4xl mx-auto mb-20">
           <p className="text-lg mb-6">
-            Na Pingo Dutos, projetamos e instalamos sistemas de água gelada que são parte fundamental para o funcionamento eficiente de sistemas de climatização central, garantindo o conforto térmico ideal em ambientes comerciais, industriais e grandes empreendimentos.
+            Na Pingo Dutos, instalamos sistemas de tubulação de água gelada que são parte fundamental para o funcionamento eficiente de sistemas de climatização central, garantindo o conforto térmico ideal em ambientes comerciais, industriais e grandes empreendimentos.
           </p>
           <p className="text-lg">
             👉 Com foco em eficiência, durabilidade e conformidade técnica, entregamos soluções completas que otimizam o uso de energia e asseguram o desempenho dos equipamentos de climatização.
@@ -63,9 +63,9 @@ export default function AguaGelada() {
 
         {/* What is Water Chiller System */}
         <div className="max-w-4xl mx-auto mb-20">
-          <h2 className="text-3xl font-bold mb-6">🔎 O Que é um Sistema de Água Gelada?</h2>
+          <h2 className="text-3xl font-bold mb-6">🔎 O Que é um Sistema de Tubulação de Água Gelada?</h2>
           <p className="text-lg">
-            O sistema de água gelada é responsável por transportar água resfriada pelo equipamento de climatização (chiller ou UTA) para os fan coils ou outros equipamentos que distribuem o ar frio nos ambientes.
+            O sistema de tubulação de água gelada é responsável por transportar água resfriada pelo equipamento de climatização (chiller ou UTA) para os fan coils ou outros equipamentos que distribuem o ar frio nos ambientes.
           </p>
         </div>
 
