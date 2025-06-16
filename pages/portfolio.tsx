@@ -191,18 +191,18 @@ const ProjetoYasai = () => {
 // Lista de projetos
 const projetos = [
   {
-    id: 'colcci',
-    titulo: 'Colcci',
-    descricao: 'Sistema de ventilação e climatização para a loja Colcci no Porto Velho Shopping.',
-    imagem: '/images/clientes/colcci.png',
-    link: '/projetos/colcci'
-  },
-  {
     id: 'yasai',
     titulo: 'Yasai Bowl',
     descricao: 'Sistema completo de dutos industriais para o Yasai Bowl, incluindo ventilação, exaustão, climatização, sistema de Saponificante para coifa, tratamento de resíduos gordurosos e coifa mult UV.',
     imagem: '/images/clientes/yasai.png',
     link: '/projetos/yasai'
+  },
+  {
+    id: 'derivados-milho',
+    titulo: 'Derivados do Milho',
+    descricao: 'Obra com execução de dutos de exaustão, coifa mult UV com saponificante e dutos de ar condicionado.',
+    imagem: '/images/clientes/derivados-milho.png',
+    link: '/projetos/derivados-milho'
   },
   // Exemplo de como adicionar outros projetos:
   // {
@@ -241,7 +241,7 @@ export default function Projetos() {
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Nossos Projetos</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Conheça alguns dos nossos principais projetos de instalação de dutos e sistemas de climatização
+            Conheça alguns dos nossos projetos de instalação de dutos e sistemas de climatização
           </p>
         </motion.div>
 
